@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 07 Jul 2022 17:08:13 at http://localhost:8080/portfolio/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost:8080/portfolio/ -O1 "C:\My Web Sites\Harokyathanahalli" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:08:20	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 39737): localhost:8080/portfolio/wp-content/themes/astra/assets/css/minified/main.min.css?ver=3.8.2
+17:34:40	Warning: 	Retry after error -4 (Incorrect length (873207 Bytes, 3408270 expected)) at link localhost:8080/portfolio/wp-content/uploads/2022/06/Book-My-Parking.jpg (from localhost:8080/portfolio/)
+17:38:30	Warning: 	Moved Permanently for localhost:8080/portfolio/?p=269
+17:38:30	Warning: 	File has moved from localhost:8080/portfolio/?p=269 to http://localhost:8080/portfolio/?page_id=269
+17:38:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 8557188 got 8388608): localhost:8080/portfolio/wp-content/uploads/2022/06/IMG-0773-1.jpg
+17:38:58	Warning: 	Retry after error -4 (Incorrect length (8388608 Bytes, 8557188 expected)) at link localhost:8080/portfolio/wp-content/uploads/2022/06/IMG-0773-1.jpg (from localhost:8080/portfolio/?page_id=269)
+17:39:25	Warning: 	Moved Permanently for localhost:8080/portfolio/?p=14
+17:39:25	Warning: 	File has moved from localhost:8080/portfolio/?p=14 to http://localhost:8080/portfolio/?page_id=14
+17:41:21	Warning: 	Moved Permanently for localhost:8080/portfolio/?p=16
+17:41:21	Warning: 	File has moved from localhost:8080/portfolio/?p=16 to http://localhost:8080/portfolio/?page_id=16
+17:42:21	Warning: 	Retry after error -4 (Incorrect length (871568 Bytes, 5211978 expected)) at link localhost:8080/portfolio/wp-content/uploads/2022/06/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg (from localhost:8080/portfolio/wp-content/uploads/elementor/css/post-269.css?ver=1657206530)
+17:45:04	Warning: 	Retry after error -4 (Incorrect length (1987550 Bytes, 5211978 expected)) at link localhost:8080/portfolio/wp-content/uploads/2022/06/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg (from localhost:8080/portfolio/wp-content/uploads/elementor/css/post-269.css?ver=1657206530)
+
+HTTrack Website Copier/3.49-2 mirror complete in 39 minutes 0 seconds : 148 links scanned, 140 files written (60175962 bytes overall) [60228666 bytes received at 25738 bytes/sec], 1.6 requests per connection
+(No errors, 12 warnings, 0 messages)
